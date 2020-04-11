@@ -1,8 +1,8 @@
 # 基础镜像（alpine linux)
-FROM alpine:3.10
+FROM alpine:3.11
 LABEL author=ahmerry@qq.com
 
-ENV OS_VER 3.10
+ENV OS_VER 3.11
 ENV TIMEZONE Asia/Shanghai
 
 # 一些工作目录准备
